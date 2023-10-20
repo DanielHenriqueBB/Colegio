@@ -10,6 +10,9 @@ header{
         margin: 0 auto;
         border: 1px solid blue;
 }
-header .topo{
-        
+header .links{
+       display: flex; 
+}
+header .links li{
+		
 }
