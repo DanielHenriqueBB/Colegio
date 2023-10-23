@@ -10,12 +10,12 @@ header{
 	margin: 0 auto;
 	border: 1px solid blue;
 }
-header .links{
+header .links ul{
 	display: flex;
 }
 header .links li{
 	list-style: none;
-	margin: 0 15px;
+	margin: 0 40px;
 }
 header .topo{
     display: flex;
@@ -33,4 +33,10 @@ header li a{
 }
 .azul i{
     color: blue;
+}
+body{
+	font-family: 'Open Sans', sans-serif; 
+}
+.lupa{
+	left: 25px;
 }
