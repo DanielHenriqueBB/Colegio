@@ -22,31 +22,26 @@ header .links ul{
 }
 
 }
-.logo{
+.logo .quad .trian{
 	background: white;
 }
 .logo .quad{
-	width: 227px;
-	height: 227px;
-	background: #fff;
-	z-index: 90;
-	position: absolute;
-}
-.logo .trian{
-width: 133px;
-  height: 133px;
+		width: 138px;
+  height: 138px;
   transform: rotate(45deg);
-  transform-origin: center;
-  left: 24px;
-  top: 64px;
+  background: #fff;
+  z-index: 90;
+  position: absolute;
   border-radius: 10px;
+  left: 109px !important;
+  top: 119px !important;
 }
-.logo img #logo-img {
+.logo img#logo-img {
   z-index: 99;
   position: absolute;
-  left: 18px;
-  top: 20px;
-  width: 98%;
+  left: 83px;
+  top: 3px;
+  width: 190px;
 }
 .lupa{
 	margin-left: 97px !important;
