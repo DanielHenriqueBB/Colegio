@@ -4,6 +4,10 @@
 	letter-spacing: 1px;
     	font-family: 'Open Sans', sans-serif; 
 }
+body{
+	background: #f3f3f3;
+
+}
 header{
 	height: 300px;
 	border: 1px solid red;	
@@ -15,6 +19,34 @@ header{
 }
 header .links ul{
 	display: flex;
+}
+
+}
+.logo{
+	background: white;
+}
+.logo .quad{
+	width: 227px;
+	height: 227px;
+	background: #fff;
+	z-index: 90;
+	position: absolute;
+}
+.logo .trian{
+width: 133px;
+  height: 133px;
+  transform: rotate(45deg);
+  transform-origin: center;
+  left: 24px;
+  top: 64px;
+  border-radius: 10px;
+}
+.logo img #logo-img {
+  z-index: 99;
+  position: absolute;
+  left: 18px;
+  top: 20px;
+  width: 98%;
 }
 .lupa{
 	margin-left: 97px !important;
@@ -48,6 +80,26 @@ header li a{
 header i{
     	margin: 3px;
 }
-.geladinho{
+.geladinho li{
 	text-align: right;
+}
+.ed_infantil{
+	font-weight: 700;
+	color: #fdc800;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+.categorias{
+	
+}
+.categorias ul{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+	list-style: none;
+	margin-top: 63px;
+}
+.categorias img{
+	width: 30px;
+	height: 60px;
 }
