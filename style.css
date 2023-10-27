@@ -1,8 +1,8 @@
 *{
 	margin: 0;
-    padding:0;
-    letter-spacing: 1px;
-    font-family: 'Open Sans', sans-serif; 
+	padding:0;
+	letter-spacing: 1px;
+    	font-family: 'Open Sans', sans-serif; 
 }
 header{
 	height: 300px;
@@ -20,6 +20,7 @@ header .links ul{
 	margin-left: 97px !important;
 }
 header .links li{
+	padding-left: 0px;
 	list-style: none;
 	margin: 20 40px;
 }
@@ -30,20 +31,23 @@ header .topo{
 header .links li{
 	display: flex;
 	justify-content: space-between;
-    font-size: 14px;
-    color: #0099b2;
+    	font-size: 14px;
+    	color: #0099b2;
 
 }
 header li a{
-    text-decoration: none;
+    	text-decoration: none;
 }
 .laranja a, .laranja i{
-    color: orange;
+    	color: orange;
 }
 .azul i, .azul a{
-    color: #0099b2;
+    	color: #0099b2;
 }
 
 header i{
-    margin: 3px;
+    	margin: 3px;
+}
+.geladinho{
+	text-align: right;
 }
