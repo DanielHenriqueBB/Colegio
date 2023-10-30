@@ -2,7 +2,7 @@
 	margin: 0;
 	padding:0;
 	letter-spacing: 1px;
-    	font-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif; 
 }
 body{
 	background: #f3f3f3;
@@ -22,12 +22,12 @@ header .links ul{
 }
 
 }
-.logo .quad .trian{
+.content .logo .quad .trian{
 	background: white;
 }
-.logo .quad{
-		width: 138px;
-  height: 138px;
+.content .logo .quad{
+    width: 138px;
+    height: 138px;
   transform: rotate(45deg);
   background: #fff;
   z-index: 90;
@@ -36,7 +36,7 @@ header .links ul{
   left: 109px !important;
   top: 119px !important;
 }
-.logo img#logo-img {
+.content .logo img#logo-img {
   z-index: 99;
   position: absolute;
   left: 83px;
