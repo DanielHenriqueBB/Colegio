@@ -9,19 +9,14 @@ body{
 
 }
 header{
-	height: 300px;
-	border: 1px solid red;	
-}
+	height: 300px;}
 .content{
 	width: 1200px;
-	margin: 0 auto;
-	border: 1px solid blue;
-}
+	margin: 0 auto;}
 header .links ul{
 	display: flex;
 }
 
-}
 .content .logo .quad .trian{
 	background: white;
 }
@@ -79,6 +74,8 @@ header i{
 	text-align: right;
 }
 .ed_infantil{
+	display: flex;
+	
 	font-weight: 700;
 	color: #fdc800;
 	text-transform: uppercase;
@@ -89,7 +86,7 @@ header i{
 }
 .categorias ul{
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	flex-wrap:wrap;
 	list-style: none;
 	margin-top: 63px;
@@ -97,4 +94,12 @@ header i{
 .categorias img{
 	width: 30px;
 	height: 60px;
+}
+.categorias li{
+	padding: 20px;
+	text-align: right;
+	line-height: 20px; 	
+}
+.texto-categoria{
+	padding: 20px;
 }
