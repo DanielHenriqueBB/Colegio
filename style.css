@@ -28,13 +28,13 @@ header .links ul{
   z-index: 90;
   position: absolute;
   border-radius: 10px;
-  left: 109px !important;
+  left: 392px !important;
   top: 119px !important;
 }
 .content .logo img#logo-img {
   z-index: 99;
   position: absolute;
-  left: 83px;
+  left: 366px;
   top: 3px;
   width: 190px;
 }
@@ -75,7 +75,6 @@ header i{
 }
 .ed_infantil{
 	display: flex;
-	
 	font-weight: 700;
 	color: #fdc800;
 	text-transform: uppercase;
@@ -102,4 +101,19 @@ header i{
 }
 .texto-categoria{
 	padding: 20px;
+}
+.en_fundamental{
+	color: #0099b2;
+	display: flex;
+}
+.en_medio{
+	color: #2bc79b !important;
+	display: flex;
+}
+.categorias ul{
+	background: white;
+	width: 640px;
+	border-radius: 10px 10px 0 0;
+	box-shadow: 1px 1px 1px 1px #00000030;
+	float: right;
 }
