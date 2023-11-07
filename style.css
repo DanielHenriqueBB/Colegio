@@ -116,4 +116,23 @@ header i{
 	border-radius: 10px 10px 0 0;
 	box-shadow: 1px 1px 1px 1px #00000030;
 	float: right;
+	 
+}
+.torta li{
+	height: 700px;
+	overflow: hidden;
+	width: 100%;
+
+}
+.torta li img{
+	width: 100%;
+	background-size: cover;
+	background-position: center;
+	margin-top: -200px;
+}
+.chuchu{
+	display: flex;
+}
+.chuchu img{
+
 }
