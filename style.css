@@ -8,8 +8,6 @@ body{
 	background: #f3f3f3;
 
 }
-header{
-	height: 300px;}
 .content{
 	width: 1200px;
 	margin: 0 auto;}
@@ -28,13 +26,13 @@ header .links ul{
   z-index: 90;
   position: absolute;
   border-radius: 10px;
-  left: 392px !important;
+  left: 196px !important;
   top: 119px !important;
 }
 .content .logo img#logo-img {
   z-index: 99;
   position: absolute;
-  left: 366px;
+  left: 170px;
   top: 3px;
   width: 190px;
 }
@@ -130,9 +128,17 @@ header i{
 	background-position: center;
 	margin-top: -200px;
 }
-.chuchu{
+.noticias ul{
 	display: flex;
 }
-.chuchu img{
-
+.noticias li img{
+	width: 100%;
+}
+.noticias li{
+	width: 33.33%;
+	margin: 15px;
+}
+.noticias .tumb{
+	height: 260px;
+	overflow: hidden;
 }
