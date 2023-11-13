@@ -28,6 +28,8 @@ header .links ul{
   border-radius: 10px;
   left: 196px !important;
   top: 119px !important;
+  box-shadow: 0px 0px 6px 3px #00000030;
+
 }
 .content .logo img#logo-img {
   z-index: 99;
@@ -99,6 +101,7 @@ header i{
 }
 .texto-categoria{
 	padding: 20px;
+	
 }
 .en_fundamental{
 	color: #0099b2;
@@ -114,7 +117,12 @@ header i{
 	border-radius: 10px 10px 0 0;
 	box-shadow: 1px 1px 1px 1px #00000030;
 	float: right;
-	 
+}
+.categorias {
+	margin-top: 15px;
+}
+.torta{
+	margin-top:-10px;
 }
 .torta li{
 	height: 700px;
@@ -161,6 +169,14 @@ header i{
 }
 .noticias a{
 	background: #87cbe3 !important;
-	padding: 7px 13px;
+	padding: 8px 30px;
 	border-radius: 50px;
+	color: white;
+	font-size: 14px;
+}
+.noticias li{
+	list-style: none;
+}
+.tumb{
+	border-radius: 10px;
 }
