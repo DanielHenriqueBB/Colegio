@@ -179,16 +179,16 @@ header i{
 	border-radius: 10px;
 }
 footer{
+	background: white;
 	display: flex;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 20px;
+	margin-top: 200px !important;
 }
 form{
 	display: flex;
 	flex-direction: column;
 	width: 33.33%;
-	margin-left: 20px;
+	margin-left: 150px;
+	margin-right: 25px;
 }
 footer .menu li{
 	line-height: 40px;
@@ -199,6 +199,8 @@ footer .menu li{
 footer li{
 	list-style: none;
 }
-footer ul{
+.menu{
 	width: 33,33%;
+	margin-left:25px;
+	margin-right: 25px
 }
