@@ -191,6 +191,7 @@ footer h1{
 }
 form h1{
 	padding-bottom: 15px;
+	padding-top: 25px ;
 }
 form{
 	display: flex;
@@ -205,13 +206,14 @@ form input, select{
 	height: 50px;
 	font-size: 16px;
 	margin-bottom: 25px;
+	HE
 
 }
 footer .menu li{
 	line-height: 40px;
 	color: #0099b2;
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 15px;
 }
 footer li{
 	list-style: none;
@@ -219,11 +221,17 @@ footer li{
 .menu{
 	width: 33,33%;
 	margin-left:25px;
-	margin-right: 25px
+	margin-right: 175px
 }
 .fonte{
 	color: #0099b2;
 	font-weight: 700;
 	font-size: 19px;
 	margin: 19px 0;
+	padding-top: 46px;
+}
+.linha{
+	width: 60px;
+	background: #f29a33;
+	height: 5px
 }
