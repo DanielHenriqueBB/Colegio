@@ -206,8 +206,6 @@ form input, select{
 	height: 50px;
 	font-size: 16px;
 	margin-bottom: 25px;
-	HE
-
 }
 footer .menu li{
 	line-height: 40px;
@@ -232,6 +230,9 @@ footer li{
 }
 .linha{
 	width: 60px;
-	background: #f29a33;
-	height: 5px
+	background: #02C028;
+	height: 5px;
+    position: absolute;
+    top: 1591px;
 }
+
