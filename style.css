@@ -8,6 +8,9 @@ body{
 	background: #f3f3f3;
 
 }
+header{
+	height: 400px;
+}
 .content{
 	width: 1200px;
 	margin: 0 auto;
@@ -140,13 +143,18 @@ header i{
 }
 .noticias ul{
 	display: flex;
+	flex-wrap: wrap;
 }
 .noticias li img{
 	width: 100%;
+	background: white;
+text-align: center;
+border-radius: 10px;
+box-shadow: 0px 0px 6px 3px #00000030;
 }
 .noticias li{
-	width: 33.33%;
-	margin: 15px;
+	width: 32%;
+	margin: 0.33px;
 	background: white;
 	text-align: center;
 	border-radius: 10px;
@@ -181,8 +189,9 @@ header i{
 	list-style: none;
 }
 .tumb{
-	border-radius: 10px;
+	border-radius: 10px;absolute
 }
+
 footer{
 	background: white;
 	display: flex;
@@ -237,8 +246,8 @@ footer li{
 	width: 60px;
 	background: #02C028;
 	height: 5px;
-    position: absolute;
-    top: 1591px;
+    position: relative;
+    top: 58px;
 }
 .botao{
 	background: #0099b2;
