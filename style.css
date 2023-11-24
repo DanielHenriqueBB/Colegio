@@ -10,7 +10,8 @@ body{
 }
 .content{
 	width: 1200px;
-	margin: 0 auto;}
+	margin: 0 auto;
+}
 header .links ul{
 	display: flex;
 }
@@ -39,7 +40,8 @@ header .links ul{
   width: 190px;
 }
 .lupa{
-	margin-left: 97px !important;
+	position: relative;
+	left: 250px;
 }
 header .links li{
 	padding-left: 0px;
@@ -53,9 +55,12 @@ header .topo{
 header .links li{
 	display: flex;
 	justify-content: space-between;
-    	font-size: 16px;
-    	color: #0099b2;
-
+    font-size: 16px;
+    color: #0099b2;
+}
+.portal{
+	position: relative;
+	left: -180px;
 }
 header li a{
     	text-decoration: none;
@@ -235,4 +240,11 @@ footer li{
     position: absolute;
     top: 1591px;
 }
-
+.botao{
+	background: #0099b2;
+	border: 0px;
+	border-radius: 10px;
+	color: white;
+	width: 105px;
+	margin-top: 33px;
+}
