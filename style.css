@@ -263,3 +263,9 @@ footer li{
 	position: relative;
 	top: 142px;
 }
+.subli{
+	text-decoration: underline black;
+}
+.main{
+	width: 70%;
+}
