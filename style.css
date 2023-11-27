@@ -23,47 +23,45 @@ header .links ul{
 	background: white;
 }
 .content .logo .quad{
-    width: 138px;
-    height: 138px;
+    width: 9%;
+    height: 33%;
   transform: rotate(45deg);
   background: #fff;
   z-index: 90;
   position: absolute;
   border-radius: 10px;
-  left: 196px !important;
-  top: 119px !important;
+  left: 16.50% !important;
+  top: 7.4% !important;
   box-shadow: 0px 0px 6px 3px #00000030;
 
 }
 .content .logo img#logo-img {
   z-index: 99;
   position: absolute;
-  left: 170px;
-  top: 3px;
-  width: 190px;
+  left: 15%;
+  top: -1%;
+  width: 12%;
 }
 .lupa{
 	position: relative;
-	left: 250px;
 }
 header .links li{
 	padding-left: 0px;
 	list-style: none;
 	margin: 20 40px;
+	display: flex;
+	justify-content: space-between;
+    font-size: 90%;
+    color: #0099b2;
 }
 header .topo{
     display: flex;
     justify-content: space-between;
 }
-header .links li{
-	display: flex;
-	justify-content: space-between;
-    font-size: 16px;
-    color: #0099b2;
-}
+
 .portal{
 	position: relative;
-	left: -180px;
+	left: 9%;
 }
 header li a{
     	text-decoration: none;
